@@ -1,0 +1,90 @@
+Exercise 1--
+After run git help command - the first comamnd listed is clone which to clone a new repository To run this command we have to use git clone "http url".
+With the help of git help command terminal gives full output which is too big.For see the less output we use git less command.
+
+Exercise 1.1.1--
+ To see the global configuration settings in a hidden text file located in our home directory with the help of this command 
+  ~/.gitconfig .
+  [user]
+        name = Akash new
+        email = akashladwa64.in
+[init]
+        defaultBranch = main
+  Now to set the configuration use:
+  git config --global user.name Akash new - To set the username
+  git config --global user.email  akashladwa64.in- To seth the email
+  git config --global init.defaultBranch main - To set the branch default set
+
+Exercise 1.2.1--
+The hidden directory used by the Git repository .git
+for show the content of the config file on the screen  cat .git/config
+
+Exercise 1.3.1--
+1. For create the empty file in repository command
+touch foo.txt
+
+2. To add the text file github repository I have used
+git add foo.txt
+
+To Confirm with  status that foo.txt file is worked I have used
+git status
+
+3. For commit the texfile in github repository I have used command
+git commit -m "Foo textfile Added"
+
+4. To add the text file github repository I have used
+git add bar.txt
+
+To Confirm with  status that bar.txt file is worked I have used
+git status
+
+5. To run the git commit without using -m with the help of  vi editor I have used the command
+git commit
+Then vi editor will open to write anything in vi editor pressed i(insert)
+The I have added ther add bar textfile ,next press ESC to leave from insert mode then press :wq to save and exit 
+
+6. To confirm the commit I have used the command 
+git log
+
+Exercise 1.4.1--
+1.With the help of touch command baz file is created 
+touch baz 
+if we run git commit -am "Add baz" it is not worked because it is not in git repository
+
+2. If we add baz to the staging area using git add -A then it will add in git repository.Then git commit -m "Add bazz"These command will added all the files and commited.
+
+3.For change in the commit meassage command used
+git commit --amend
+After Enter on this command Renter the message and then quit
+
+4 For verify the message was amended peoperly I have used At first I have used the git log command to get the SHA 
+Then for verify it is properly ammend or not I have used the command git show <SHA> 
+
+Exercise 1.5--
+1. After running the git log command it shows only the commit messages which makes for a compact display 
+So after running git log -p that the -p option shows the full diffs represented by each commit.
+
+2. To print the hello world in heading form I have used the h1 tag
+and for paragraph “Call me Ishmael.” I have used the paragraph tag
+
+Exercise 1.6--
+1.For add the title on html file put the "A whale of a greeting" on the title of html file.
+
+2. To Commit the new title with a commit message New Title Added. 
+At first I have added the index.html file with the help git add . command
+I have used the commit command 
+For see the last commit I have used git log -p command
+
+3. After runnig the contents of listing 1.8 into an HTMl validators I got two errors these are
+ Non-space characters found without seeing a doctype first. Expected <!DOCTYPE html>.
+ Element head is missing a required instance of child element title.
+
+ 4.After fixing the errors it gives 
+ Document checking completed. No errors or warnings to show.
+
+ Exercise 2.2.1--
+1.After checking the commit meassages on github page it is same as that of git log  commands which I have run on the terminal.
+
+ Exercise 2.2--
+ 1. After add the Readme file
+ Exercise 2.3--
