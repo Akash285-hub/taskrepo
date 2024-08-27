@@ -1,1 +1,3 @@
+
+Add Bar
 This is a bar text file
