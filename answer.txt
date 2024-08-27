@@ -85,6 +85,7 @@ For see the last commit I have used git log -p command
  Exercise 2.2.1--
 1.After checking the commit meassages on github page it is same as that of git log  commands which I have run on the terminal.
 
- Exercise 2.2--
- 1. After add the Readme file
- Exercise 2.3--
+ Exercise 2.3.1--
+ 1. Added the official git documentation link in readme file.
+ 
+ 
